@@ -1,9 +1,7 @@
 travel = ['universal', 'disney', 'tokyo', 'rio', 'chengdu']
 print(travel)
-sorted(travel)
-print(travel)
-sorted(travel,reverse=True)
-print(travel)
+print(sorted(travel))
+print(sorted(travel, reverse=True))
 travel.reverse()
 print(travel)
 travel.reverse()
